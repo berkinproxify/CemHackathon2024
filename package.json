@@ -1,6 +1,7 @@
 {
   "name": "proxifier_cem",
   "version": "1.0.0",
+  "homepage": "https://berkinproxify/CemHackathon2024",
   "private": true,
   "type": "module",
   "scripts": {
