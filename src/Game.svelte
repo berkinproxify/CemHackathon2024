@@ -14,7 +14,7 @@
       roles: ['Backend', 'Frontend', 'Mobile'],
       logos: // Mobile Development
         [{
-          src: 'CemHackathon2024/assets/logos/Android.png',
+          src: 'assets/logos/Android.png',
           name: 'Android',
           image: new Image(),
           position: { x: 250, y: 0 },
@@ -23,7 +23,7 @@
           languages: ['Kotlin', 'Java']
         },
           {
-            src: 'CemHackathon2024/assets/logos/iOS.png',
+            src: 'assets/logos/iOS.png',
             name: 'iOS',
             image: new Image(),
             position: { x: 150, y: 0 },
@@ -32,7 +32,7 @@
             languages: ['Swift', 'Objective-C']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Flutter.png',
+            src: 'assets/logos/Flutter.png',
             name: 'Flutter',
             image: new Image(),
             position: { x: 120, y: 0 },
@@ -41,7 +41,7 @@
             languages: ['Dart']
           },
           {
-            src: 'CemHackathon2024/assets/logos/React Native.png',
+            src: '/assets/logos/React Native.png',
             name: 'React Native',
             image: new Image(),
             position: { x: 153, y: 0 },
@@ -59,7 +59,7 @@
             roles: ['Frontend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/React.js.png',
+            src: '/CemHackathon2024/assets/logos/React.js.png',
             name: 'React.js',
             image: new Image(),
             position: { x: 300, y: 0 },
@@ -308,12 +308,17 @@
 
   function loadLogos(){
     levels[currentLevel].logos.forEach(logo => {
+      try{
       logo.image.src = logo.src;
       logo.image.onload = () => {
         if (levels[currentLevel].logos.every(logo => logo.image.complete)) {
           requestAnimationFrame(updateAndDraw); // Start the loop when all images are loaded
         }
       };
+    }
+    catch{
+      console.log("image not found");
+    }
     });
   }
 
