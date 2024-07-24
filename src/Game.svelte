@@ -405,12 +405,13 @@
     if (currentLevel + 1 < levels.length) {
       showLevelEndPopup();
     } else {
+      totalScore += score;
       showEndGamePopup();
     }
   }
 
   function showEndGamePopup() {
-    document.getElementById('finalScore').innerText = `Your score: ${score}`;
+    document.getElementById('finalScore').innerText = `Your score: ${totalScore}`;
     document.getElementById('endGamePopup').style.display = 'flex';
   }
 
