@@ -192,8 +192,8 @@
             roles: ['Data Science']
           },
           {
-            src: 'assets/logos/Numpy.png',
-            name: 'Numpy',
+            src: 'assets/logos/NumPy.png',
+            name: 'NumPy',
             image: new Image(),
             position: { x: 270, y: 0 },
             hasFallen: false,
@@ -388,7 +388,12 @@
     // Draw the current logo
     let currentLogo = levels[currentLevel].logos[currentLogoIndex];
     if (currentLogo) {
-      ctx.drawImage(currentLogo.image, currentLogo.position.x, currentLogo.position.y, 40, 40);
+      try{
+        ctx.drawImage(currentLogo.image, currentLogo.position.x, currentLogo.position.y, 40, 40);
+      }
+      catch{
+        console.log('Failed to display logo: ' + currentLogo?.name);
+      }
     }
   }
 
