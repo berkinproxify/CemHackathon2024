@@ -41,7 +41,7 @@
             languages: ['Dart']
           },
           {
-            src: '/assets/logos/React Native.png',
+            src: 'assets/logos/React Native.png',
             name: 'React Native',
             image: new Image(),
             position: { x: 153, y: 0 },
@@ -51,7 +51,7 @@
           },
           // Frontend Development
           {
-            src: 'CemHackathon2024/assets/logos/Svelte.png',
+            src: 'assets/logos/Svelte.png',
             name: 'Svelte',
             image: new Image(),
             position: { x: 100, y: 0 },
@@ -59,7 +59,7 @@
             roles: ['Frontend']
           },
           {
-            src: '/CemHackathon2024/assets/logos/React.js.png',
+            src: 'assets/logos/React.js.png',
             name: 'React.js',
             image: new Image(),
             position: { x: 300, y: 0 },
@@ -67,7 +67,7 @@
             roles: ['Frontend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Angular.png',
+            src: 'assets/logos/Angular.png',
             name: 'Angular',
             image: new Image(),
             position: { x: 221, y: 0 },
@@ -75,7 +75,7 @@
             roles: ['Frontend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Vue.js.png',
+            src: 'assets/logos/Vue.js.png',
             name: 'Vue.js',
             image: new Image(),
             position: { x: 270, y: 0 },
@@ -84,7 +84,7 @@
           },
           // Backend Development
           {
-            src: 'CemHackathon2024/assets/logos/Node.js.png',
+            src: 'assets/logos/Node.js.png',
             name: 'Node.js',
             image: new Image(),
             position: { x: 150, y: 0 },
@@ -93,7 +93,7 @@
             languages: ['JavaScript']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Django.png',
+            src: 'assets/logos/Django.png',
             name: 'Django',
             image: new Image(),
             position: { x: 167, y: 0 },
@@ -102,7 +102,7 @@
             languages: ['Python']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Spring.png',
+            src: 'assets/logos/Spring.png',
             name: 'Spring',
             image: new Image(),
             position: { x: 50, y: 0 },
@@ -118,7 +118,7 @@
       logos: // Mobile Development
         [
           {
-            src: 'CemHackathon2024/assets/logos/AWS.png',
+            src: 'assets/logos/AWS.png',
             name: 'AWS',
             image: new Image(),
             position: { x: 50, y: 0 },
@@ -126,7 +126,7 @@
             roles: ['DevOps']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Swift.png',
+            src: 'assets/logos/Swift.png',
             name: 'Swift',
             image: new Image(),
             position: { x: 50, y: 0 },
@@ -134,7 +134,7 @@
             roles: ['Mobile']
           },
           {
-            src: 'CemHackathon2024/assets/logos/CSharp.png',
+            src: 'assets/logos/CSharp.png',
             name: 'C#',
             image: new Image(),
             position: { x: 120, y: 0 },
@@ -142,7 +142,7 @@
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/TensorFlow.png',
+            src: 'assets/logos/TensorFlow.png',
             name: 'TensorFlow',
             image: new Image(),
             position: { x: 150, y: 0 },
@@ -151,7 +151,7 @@
           },
 
           {
-            src: 'CemHackathon2024/assets/logos/Docker.png',
+            src: 'assets/logos/Docker.png',
             name: 'Docker',
             image: new Image(),
             position: { x: 153, y: 0 },
@@ -160,7 +160,7 @@
           },
           // Frontend Development
           {
-            src: 'CemHackathon2024/assets/logos/Kubernetes.png',
+            src: 'assets/logos/Kubernetes.png',
             name: 'Kubernetes',
             image: new Image(),
             position: { x: 100, y: 0 },
@@ -168,14 +168,14 @@
             roles: ['DevOps']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Laravel.png',
+            src: 'assets/logos/Laravel.png',
             image: new Image(),
             position: { x: 300, y: 0 },
             hasFallen: false,
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Azure.png',
+            src: 'assets/logos/Azure.png',
             name: 'Azure',
             image: new Image(),
             position: { x: 250, y: 0 },
@@ -183,21 +183,21 @@
             roles: ['DevOps']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Pandas.png',
+            src: 'assets/logos/Pandas.png',
             image: new Image(),
             position: { x: 221, y: 0 },
             hasFallen: false,
             roles: ['Data Science']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Numpy.png',
+            src: 'assets/logos/Numpy.png',
             image: new Image(),
             position: { x: 270, y: 0 },
             hasFallen: false,
             roles: ['Data Science']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Symfony.png',
+            src: 'assets/logos/Symfony.png',
             name: 'Symfony',
             image: new Image(),
             position: { x: 167, y: 0 },
@@ -205,7 +205,7 @@
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/R.png',
+            src: 'assets/logos/R.png',
             name: 'R',
             image: new Image(),
             position: { x: 50, y: 0 },
@@ -220,7 +220,7 @@
       logos: // Mobile Development
         [
           {
-            src: 'CemHackathon2024/assets/logos/Snowflake.png',
+            src: 'assets/logos/Snowflake.png',
             name: 'Snowflake',
             image: new Image(),
             position: { x: 50, y: 0 },
@@ -228,7 +228,7 @@
             roles: ['Data Engineering']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Microsoft Power BI.png',
+            src: 'assets/logos/Microsoft Power BI.png',
             name: 'Microsoft Power BI',
             image: new Image(),
             position: { x: 120, y: 0 },
@@ -236,7 +236,7 @@
             roles: ['BI']
           },
           {
-            src: 'CemHackathon2024/assets/logos/FastAPI.png',
+            src: 'assets/logos/FastAPI.png',
             name: 'FastAPI',
             image: new Image(),
             position: { x: 153, y: 0 },
@@ -244,7 +244,7 @@
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Ionic.png',
+            src: 'assets/logos/Ionic.png',
             name: 'Ionic',
             image: new Image(),
             position: { x: 100, y: 0 },
@@ -252,7 +252,7 @@
             roles: ['Mobile']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Laravel.png',
+            src: 'assets/logos/Laravel.png',
             name: 'Laravel',
             image: new Image(),
             position: { x: 300, y: 0 },
@@ -260,7 +260,7 @@
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/PHP.png',
+            src: 'assets/logos/PHP.png',
             name: 'PHP',
             image: new Image(),
             position: { x: 250, y: 0 },
@@ -268,7 +268,7 @@
             roles: ['Backend']
           },
           {
-            src: 'CemHackathon2024/assets/logos/SQL.png',
+            src: 'assets/logos/SQL.png',
             name: 'SQL',
             image: new Image(),
             position: { x: 221, y: 0 },
@@ -276,7 +276,7 @@
             roles: ['Backend', 'Data Engineering']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Tableau.png',
+            src: 'assets/logos/Tableau.png',
             name: 'Tableau',
             image: new Image(),
             position: { x: 270, y: 0 },
@@ -284,7 +284,7 @@
             roles: ['BI']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Google Cloud.png',
+            src: 'assets/logos/Google Cloud.png',
             name: 'Google Cloud',
             image: new Image(),
             position: { x: 167, y: 0 },
@@ -292,7 +292,7 @@
             roles: ['DevOps']
           },
           {
-            src: 'CemHackathon2024/assets/logos/Figma.png',
+            src: 'assets/logos/Figma.png',
             name: 'Figma',
             image: new Image(),
             position: { x: 50, y: 0 },
