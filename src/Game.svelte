@@ -169,6 +169,7 @@
           },
           {
             src: 'assets/logos/Laravel.png',
+            name: 'Laravel',
             image: new Image(),
             position: { x: 300, y: 0 },
             hasFallen: false,
@@ -184,6 +185,7 @@
           },
           {
             src: 'assets/logos/Pandas.png',
+            name: 'Pandas',
             image: new Image(),
             position: { x: 221, y: 0 },
             hasFallen: false,
@@ -191,6 +193,7 @@
           },
           {
             src: 'assets/logos/Numpy.png',
+            name: 'Numpy',
             image: new Image(),
             position: { x: 270, y: 0 },
             hasFallen: false,
